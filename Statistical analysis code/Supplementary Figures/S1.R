@@ -62,7 +62,7 @@ get_coverage_stats <- function(data) {
 # 读取并过滤数据
 cat("正在读取并过滤数据...\n")
 genus_filtered <- preprocess_data("genus_abund.csv")
-ko_filtered <- preprocess_data("ko_bases.csv", is_ko = TRUE)
+ko_filtered <- preprocess_data("ko_abund.csv", is_ko = TRUE)
 
 # 计算稀释曲线
 cat("正在计算稀释曲线数据 (81 样本)...\n")
