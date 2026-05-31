@@ -1,22 +1,23 @@
-# Functional buffering by redundant bacterial generalists underpins coral holobiont thermotolerance
+# Functional buffering by bacterial generalists associated with coral holobiont thermotolerance
 
 ## Overview
-This repository contains the custom R scripts and processed data necessary to reproduce the analysis presented in the paper:  
-**"Functional buffering by redundant bacterial generalists underpins coral holobiont thermotolerance in fluctuating environments"**
+This repository contains the custom R scripts and metadata necessary to reproduce the analysis presented in our paper. 
 
 ## Directory Structure
-- `Data/`: Processed taxonomic and functional abundance matrices (due to size limits, raw FASTQ/BAM files are deposited in NCBI SRA PRJNAXXXXXX).
-- `Scripts/`: R scripts for data normalization, ecological indices calculation (FRI, Niche breadth), and figure generation.
-- `Results/`: Output figures and statistical reports.
+The repository is organized by figure numbers corresponding to the manuscript to ensure transparency and reproducibility:
+
+*   `Statistical analysis code/` : Contains all the customized R scripts used for statistical analyses and figure generation.
+    *   `Fig.1/` : Scripts for physiological data analysis (Figure 1).
+    *   `Fig.2/` : Scripts for baseline microbiome architectures, niche breadth, and Functional Redundancy Index (FRI) (Figure 2).
+    *   `Fig.3/` : Scripts for functional reorganization, Functional Retention Rate (FRR) (Figure 3).
+    *   `Supplementary Figures/` : Scripts for supplementary analyses.
+
+*   `Metadata_SampleKey.xlsx` : A comprehensive sample key explicitly mapping all raw bioinformatic output IDs (e.g., restI1A) to the standardized Sample IDs used in the manuscript (e.g., IT-C1).
+
+## Data Availability
+*   **Raw Sequence Data**: All raw metagenomic FASTQ files have been deposited in the NCBI Sequence Read Archive (SRA) under BioProject accession number **PRJNA[这里填您的编号]**.
+*   **Processed Data & Matrices**: Due to GitHub file size limits, all processed taxonomic and functional abundance matrices, ORF annotations, and mapping statistics are openly available in Figshare at: **[https://doi.org/10.6084/m9.figshare.30511487]**.
 
 ## Prerequisites
-The scripts were developed and tested in R version 4.2.0+. Required packages:
-- `tidyverse`, `vegan`, `ggpubr`, `metagenomeSeq`, `patchwork`, `rstatix`, `multcompView`
-
-## Workflow
-1. Run `Scripts/01_Data_Processing.R` to perform CSS normalization and ID mapping.
-2. Run `Scripts/02_Field_Analysis.R` to generate baseline patterns (Figure 2).
-3. Run `Scripts/03_Experiment_Analysis.R` to analyze heat stress responses (Figure 3).
-
-## Contact
-Your Name (your_email@institution.edu)
+The scripts were developed and tested in R version 4.3.3. 
+Required packages include: `tidyverse`, `vegan`, `ggpubr`, `metagenomeSeq`, `patchwork`, `igraph`.
