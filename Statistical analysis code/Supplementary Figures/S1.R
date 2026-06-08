@@ -8,7 +8,7 @@ library(patchwork)
 # 1. 核心处理函数定义
 # ==========================================
 
-# 数据过滤与预处理：保留整数计数并过滤极低丰度噪音
+# 数据过滤与预处理：保留整数计数并过滤极低丰度噪音   !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 preprocess_data <- function(file_path, is_ko = FALSE) {
   data <- read.csv(file_path, header = TRUE, row.names = 1, check.names = FALSE)
   if(is_ko) {
@@ -110,17 +110,4 @@ p2 <- plot_rare_publication(df_ko_rare, "Functional KO Saturation", "Number of K
 final_plot <- (p1 / p2) + plot_layout(guides = 'collect') & theme(legend.position = "bottom")
 print(final_plot)
 
-# ==========================================
-# 4. 生成自动评估报告 (用于 Discussion 写作)
-# ==========================================
-
-cat("\n=== 数据饱和度报告 ===\n")
-cat("Genus 平均覆盖率:", round(mean(cov_genus$Coverage)*100, 2), "%\n")
-cat("KO 功能平均覆盖率:", round(mean(cov_ko$Coverage)*100, 2), "%\n")
-
-Mif(mean(cov_genus$Coverage) > 0.98) {
-  cat("结论：数据已高度饱和，当前 10G 深度已足以代表群落多样性。\n")
-}
-
-# 保存图片
 ggsave("Figure_S1_Rarefaction_Professional.pdf", final_plot, width = 7, height = 9)
