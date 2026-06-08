@@ -20,7 +20,7 @@ bray_dist_matrix <- as.matrix(bray_dist)
 pcoa_result <- cmdscale(bray_dist, k = 2, eig = TRUE)
 pcoa_scores <- as.data.frame(pcoa_result$points)
 colnames(pcoa_scores) <- c("PCoA1", "PCoA2")
-# 5. 添加分组信息并去除离群点
+# 5. 添加分组信息并去除离群点！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！
 pcoa_scores$Group <- metadata[rownames(pcoa_scores), "Group"]
 pcoa_scores$Habitat <- metadata[rownames(pcoa_scores), "Habitat"]
 # 离群点检测（基于马氏距离）
