@@ -63,7 +63,7 @@ cat("\n===== 组间差异检验结果 =====\n")
 cat("Method:", test_method, "\n")
 print(res)
 
-# 4.3 组内差异检验（每个地点加热前后的变化）
+# 4.3 组内差异检验（每个地点加热前后的变化） ！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！
 group_tests <- list()
 for(group in c("IT", "ST")) {
   subset_data <- paired_data %>% filter(BaseGroup == group)
@@ -109,7 +109,7 @@ p <- ggplot(paired_data, aes(x = BaseGroup, y = ChangeRate)) +
     tip.length = 0.01,
     vjust = 1.5
   ) +
-  # 统计检验标记（组内 vs 0）
+  # 统计检验标记（组内 vs 0）  ！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！
   geom_signif(
     data = data.frame(
       BaseGroup = c("IT", "ST"),
