@@ -38,7 +38,7 @@ p <- ggplot(data, aes(x = Group, y = value, fill = Group)) +
     panel.grid.major.y = element_line(color = "grey90", size = 0.2)
   ) +
   
-  # 添加生态学信息标注
+  # 添加生态学信息标注！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！
   annotate("text", x = 1.5, y = max(data$value) * 1.1, 
            label = "IT shows higher environmental variability\n(Wilcoxon test, p < 0.001)",
            size = 4, color = "black")
