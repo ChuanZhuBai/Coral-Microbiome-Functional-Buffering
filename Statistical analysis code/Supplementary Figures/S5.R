@@ -1,3 +1,4 @@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 keep <- filterByExpr(
   dge,
   group = dge$samples$group,
@@ -20,7 +21,7 @@ library(tidyr)  # 用于数据整理
 
 # ==================== 2. 数据加载与预处理 ====================
 # 读取原始counts数据
-counts_data <- read.csv("KEGG_bases_insitu.csv", header = TRUE, row.names = 1, check.names = FALSE)
+counts_data <- read.csv("KEGG_bases_insitu.csv", header = TRUE, row.names = 1, check.names = FALSE)!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 metadata <- read.csv("metadata.csv", header = TRUE)
 
 # 读取通路数据（确保正确分隔）
