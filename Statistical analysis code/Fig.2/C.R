@@ -10,7 +10,7 @@ dir()
 abundance_base <- read.csv("genus.csv", row.names = 1, check.names = FALSE)
 metadata <- read.csv("metadata.csv") %>% 
   filter(Sample %in% colnames(abundance_base))
-# 过滤低丰度菌（0.1%）
+# 过滤低丰度菌（0.1%）！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！
 abundance_df <- abundance_base[rowSums(abundance_base) > 0.001, ]
 prev <- rowMeans(abundance_base > 0)
 #abundance_df <- abundance_base[prev >= 0.2, ]
