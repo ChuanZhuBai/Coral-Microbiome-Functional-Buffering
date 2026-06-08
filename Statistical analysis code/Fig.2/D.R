@@ -1,4 +1,4 @@
-# ======================
+que# ======================
 # 精准累积比例分析 - 分步终极版
 # 优化目标：
 # 1. 分步验证每步结果
@@ -36,7 +36,7 @@ metadata <- read.csv("metadata.csv") %>%
 # 过滤低丰度菌（0.1%）
 #abundance_df <- abundance_base[rowSums(abundance_base) > 0.001, ]
 prev <- rowMeans(abundance_base > 0)
-abundance_df <- abundance_base[prev >= 0.2, ]！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！
+abundance_df <- abundance_base[prev >= 0.2, ]！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！同时缺F图
 
 # 数据验证
 cat("\n数据维度验证:\n")
