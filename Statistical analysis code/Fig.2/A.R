@@ -9,7 +9,7 @@ dir()
 # 2. 数据准备
 # 读取物种绝对丰度表（物种×样本）
 species <- as.matrix(read.csv("genus.csv", row.names = 1, check.names = FALSE))
-species_mat <- species[rowSums(species) > 0.0001, ]
+species_mat <- species[rowSums(species) > 0, ]
 # 读取元数据 (更新为使用SampleID列)
 metadata <- read.csv("metadata.csv")
 rownames(metadata) <- metadata$SampleID  # 注意这里改为SampleID
