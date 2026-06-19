@@ -1,0 +1,43 @@
+"Direction","pathway","prevalence"
+"IT","ABC transporters",0.05
+"IT","Glyoxylate and dicarboxylate metabolism",0.05
+"IT","Styrene degradation",0.05
+"IT","Two-component system",0.05
+"IT","Sulfur metabolism",0.05
+"IT","Phosphonate and phosphinate metabolism",0.05
+"IT","Valine, leucine and isoleucine degradation",0.05
+"IT","Bacterial chemotaxis",0.05
+"IT","Flagellar assembly",0.05
+"IT","Tryptophan metabolism",0.05
+"IT","Aminobenzoate degradation",0.05
+"IT","Valine, leucine and isoleucine biosynthesis",0.05
+"IT","Chlorocyclohexane and chlorobenzene degradation",0.05
+"ST","Phosphotransferase system (PTS)",0.05
+"ST","Ribosome biogenesis",0.05
+"IT","Glyoxylate and dicarboxylate metabolism",0.1
+"IT","ABC transporters",0.1
+"IT","Two-component system",0.1
+"IT","Valine, leucine and isoleucine biosynthesis",0.1
+"IT","Valine, leucine and isoleucine degradation",0.1
+"IT","Sulfur metabolism",0.1
+"IT","Butanoate metabolism",0.1
+"IT","Bacterial chemotaxis",0.1
+"IT","C5-Branched dibasic acid metabolism",0.1
+"IT","Histidine metabolism",0.1
+"IT","Benzoate degradation",0.1
+"ST","Phosphotransferase system (PTS)",0.1
+"IT","Valine, leucine and isoleucine biosynthesis",0.2
+"IT","Valine, leucine and isoleucine degradation",0.2
+"IT","Bacterial chemotaxis",0.2
+"IT","C5-Branched dibasic acid metabolism",0.2
+"IT","Butanoate metabolism",0.2
+"IT","Histidine metabolism",0.2
+"IT","Glyoxylate and dicarboxylate metabolism",0.2
+"IT","Two-component system",0.2
+"IT","Carbon fixation pathways in prokaryotes",0.2
+"IT","Porphyrin and chlorophyll metabolism",0.2
+"IT","Benzoate degradation",0.2
+"IT","Pyruvate metabolism",0.2
+"IT","Flagellar assembly",0.2
+"IT","ABC transporters",0.2
+"ST","Phosphotransferase system (PTS)",0.2

@@ -1,0 +1,21 @@
+"pathway","0.05","0.1","0.2","n_thresholds"
+"ABC transporters","*","*","*",3
+"Bacterial chemotaxis","*","*","*",3
+"Glyoxylate and dicarboxylate metabolism","*","*","*",3
+"Two-component system","*","*","*",3
+"Valine, leucine and isoleucine biosynthesis","*","*","*",3
+"Valine, leucine and isoleucine degradation","*","*","*",3
+"Benzoate degradation","","*","*",2
+"Butanoate metabolism","","*","*",2
+"C5-Branched dibasic acid metabolism","","*","*",2
+"Flagellar assembly","*","","*",2
+"Histidine metabolism","","*","*",2
+"Sulfur metabolism","*","*","",2
+"Aminobenzoate degradation","*","","",1
+"Carbon fixation pathways in prokaryotes","","","*",1
+"Chlorocyclohexane and chlorobenzene degradation","*","","",1
+"Phosphonate and phosphinate metabolism","*","","",1
+"Porphyrin and chlorophyll metabolism","","","*",1
+"Pyruvate metabolism","","","*",1
+"Styrene degradation","*","","",1
+"Tryptophan metabolism","*","","",1
