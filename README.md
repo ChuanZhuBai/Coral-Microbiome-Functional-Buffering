@@ -6,7 +6,7 @@ This repository contains the custom R scripts and metadata necessary to reproduc
 ## Directory Structure
 The repository is organized by figure numbers corresponding to the manuscript to ensure transparency and reproducibility:
 
-*   `Statistical analysis code/` : Contains all the customized R scripts used for statistical analyses and figure generation.
+*   `Statistical analysis R scripts/` : Contains all the customized R scripts used for statistical analyses and figure generation.
     *   `Fig.1/` : Scripts for physiological data analysis (Figure 1).
     *   `Fig.2/` : Scripts for baseline microbiome architectures, niche breadth, and Functional Redundancy Index (FRI) (Figure 2).
     *   `Fig.3/` : Scripts for functional reorganization, Functional Retention Rate (FRR) (Figure 3).
