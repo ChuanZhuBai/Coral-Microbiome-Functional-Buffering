@@ -15,7 +15,7 @@ The repository is organized by figure numbers corresponding to the manuscript to
 *   `Metadata_SampleKey.xlsx` : A comprehensive sample key explicitly mapping all raw bioinformatic output IDs (e.g., restI1A) to the standardized Sample IDs used in the manuscript (e.g., IT-C1).
 
 ## Data Availability
-*   **Raw Sequence Data**: All raw metagenomic FASTQ files have been deposited in the NCBI Sequence Read Archive (SRA) under BioProject accession number **PRJNA[这里填您的编号]**.
+*   **Raw Sequence Data**: All raw metagenomic FASTQ files have been deposited in the NCBI Sequence Read Archive (SRA) under BioProject accession number **PRJNA1474294**.
 *   **Processed Data & Matrices**: Due to GitHub file size limits, all processed taxonomic and functional abundance matrices, ORF annotations, and mapping statistics are openly available in Figshare at: **[https://doi.org/10.6084/m9.figshare.30511487]**.
 
 ## Prerequisites
