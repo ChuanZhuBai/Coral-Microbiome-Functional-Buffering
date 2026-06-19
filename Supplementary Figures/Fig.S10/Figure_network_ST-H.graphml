@@ -1,0 +1,1148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="v_name" for="node" attr.name="name" attr.type="string"/>
+  <key id="v_degree" for="node" attr.name="degree" attr.type="double"/>
+  <key id="v_mean_rel" for="node" attr.name="mean_rel" attr.type="double"/>
+  <key id="v_L2" for="node" attr.name="L2" attr.type="string"/>
+  <key id="v_L3" for="node" attr.name="L3" attr.type="string"/>
+  <key id="v_id" for="node" attr.name="id" attr.type="double"/>
+  <key id="v_label" for="node" attr.name="label" attr.type="string"/>
+  <key id="e_rho" for="edge" attr.name="rho" attr.type="double"/>
+  <key id="e_sign" for="edge" attr.name="sign" attr.type="string"/>
+  <key id="e_correlation_type" for="edge" attr.name="correlation_type" attr.type="string"/>
+  <key id="e_absolute_correlation" for="edge" attr.name="absolute_correlation" attr.type="double"/>
+  <graph id="G" edgedefault="undirected">
+    <node id="n0">
+      <data key="v_name">K01520</data>
+      <data key="v_degree">1</data>
+      <data key="v_mean_rel">9.66605588218499</data>
+      <data key="v_L2">Nucleotide metabolism; Xenobiotics biodegradation and metabolism; Protein families: genetic information processing</data>
+      <data key="v_L3">Pyrimidine metabolism; Drug metabolism - other enzymes; DNA repair and recombination proteins</data>
+      <data key="v_id">1</data>
+      <data key="v_label">K01520</data>
+    </node>
+    <node id="n1">
+      <data key="v_name">K01191</data>
+      <data key="v_degree">1</data>
+      <data key="v_mean_rel">9.65266492593117</data>
+      <data key="v_L2">Glycan biosynthesis and metabolism; Protein families: genetic information processing</data>
+      <data key="v_L3">Other glycan degradation; Membrane trafficking</data>
+      <data key="v_id">2</data>
+      <data key="v_label">K01191</data>
+    </node>
+    <node id="n2">
+      <data key="v_name">K03406</data>
+      <data key="v_degree">6</data>
+      <data key="v_mean_rel">6.26521897923029</data>
+      <data key="v_L2">Signal transduction; Cell motility; Protein families: signaling and cellular processes</data>
+      <data key="v_L3">Two-component system; Bacterial chemotaxis; Bacterial motility proteins</data>
+      <data key="v_id">3</data>
+      <data key="v_label">K03406</data>
+    </node>
+    <node id="n3">
+      <data key="v_name">K03686</data>
+      <data key="v_degree">8</data>
+      <data key="v_mean_rel">5.99049405462544</data>
+      <data key="v_L2">Protein families: genetic information processing</data>
+      <data key="v_L3">Chaperones and folding catalysts; Mitochondrial biogenesis</data>
+      <data key="v_id">4</data>
+      <data key="v_label">K03686</data>
+    </node>
+    <node id="n4">
+      <data key="v_name">K00134</data>
+      <data key="v_degree">2</data>
+      <data key="v_mean_rel">4.02747043019268</data>
+      <data key="v_L2">Carbohydrate metabolism; Energy metabolism; Signal transduction; Neurodegenerative diseases; Protein families: genetic information processing; Protein families: signaling and cellular processes</data>
+      <data key="v_L3">Glycolysis / Gluconeogenesis; Carbon fixation in photosynthetic organisms; HIF-1 signaling pathway; Alzheimer disease; Membrane trafficking; Exosome</data>
+      <data key="v_id">5</data>
+      <data key="v_label">K00134</data>
+    </node>
+    <node id="n5">
+      <data key="v_name">K13924</data>
+      <data key="v_degree">14</data>
+      <data key="v_mean_rel">3.02159972188949</data>
+      <data key="v_L2">Signal transduction; Cell motility; Protein families: signaling and cellular processes</data>
+      <data key="v_L3">Two-component system; Bacterial chemotaxis; Bacterial motility proteins</data>
+      <data key="v_id">6</data>
+      <data key="v_label">K13924</data>
+    </node>
+    <node id="n6">
+      <data key="v_name">K02014</data>
+      <data key="v_degree">13</data>
+      <data key="v_mean_rel">3.13972453774744</data>
+      <data key="v_L2">Protein families: signaling and cellular processes</data>
+      <data key="v_L3">Transporters</data>
+      <data key="v_id">7</data>
+      <data key="v_label">K02014</data>
+    </node>
+    <node id="n7">
+      <data key="v_name">K02030</data>
+      <data key="v_degree">2</data>
+      <data key="v_mean_rel">2.85491946064709</data>
+      <data key="v_L2">Protein families: signaling and cellular processes</data>
+      <data key="v_L3">Transporters</data>
+      <data key="v_id">8</data>
+      <data key="v_label">K02030</data>
+    </node>
+    <node id="n8">
+      <data key="v_name">K00102</data>
+      <data key="v_degree">4</data>
+      <data key="v_mean_rel">2.65907037498277</data>
+      <data key="v_L2">Carbohydrate metabolism</data>
+      <data key="v_L3">Pyruvate metabolism</data>
+      <data key="v_id">9</data>
+      <data key="v_label">K00102</data>
+    </node>
+    <node id="n9">
+      <data key="v_name">K03070</data>
+      <data key="v_degree">13</data>
+      <data key="v_mean_rel">2.61337298872249</data>
+      <data key="v_L2">Folding, sorting and degradation; Membrane transport; Cellular community - prokaryotes; Protein families: signaling and cellular processes</data>
+      <data key="v_L3">Protein export; Bacterial secretion system; Quorum sensing; Secretion system</data>
+      <data key="v_id">10</data>
+      <data key="v_label">K03070</data>
+    </node>
+    <node id="n10">
+      <data key="v_name">K07480</data>
+      <data key="v_degree">11</data>
+      <data key="v_mean_rel">2.19574661343103</data>
+      <data key="v_L2">Unclassified: genetic information processing</data>
+      <data key="v_L3">Replication and repair</data>
+      <data key="v_id">11</data>
+      <data key="v_label">K07480</data>
+    </node>
+    <node id="n11">
+      <data key="v_name">K01153</data>
+      <data key="v_degree">5</data>
+      <data key="v_mean_rel">1.952569576465</data>
+      <data key="v_L2">Protein families: signaling and cellular processes</data>
+      <data key="v_L3">Prokaryotic defense system</data>
+      <data key="v_id">12</data>
+      <data key="v_label">K01153</data>
+    </node>
+    <node id="n12">
+      <data key="v_name">K00986</data>
+      <data key="v_degree">9</data>
+      <data key="v_mean_rel">1.95986599770541</data>
+      <data key="v_L2">Unclassified: metabolism</data>
+      <data key="v_L3">Enzymes with EC numbers</data>
+      <data key="v_id">13</data>
+      <data key="v_label">K00986</data>
+    </node>
+    <node id="n13">
+      <data key="v_name">K03574</data>
+      <data key="v_degree">9</data>
+      <data key="v_mean_rel">2.09012147434711</data>
+      <data key="v_L2">Protein families: genetic information processing</data>
+      <data key="v_L3">DNA repair and recombination proteins</data>
+      <data key="v_id">14</data>
+      <data key="v_label">K03574</data>
+    </node>
+    <node id="n14">
+      <data key="v_name">K03088</data>
+      <data key="v_degree">11</data>
+      <data key="v_mean_rel">1.35430576199492</data>
+      <data key="v_L2">Protein families: genetic information processing</data>
+      <data key="v_L3">Transcription machinery</data>
+      <data key="v_id">15</data>
+      <data key="v_label">K03088</data>
+    </node>
+    <node id="n15">
+      <data key="v_name">K07484</data>
+      <data key="v_degree">3</data>
+      <data key="v_mean_rel">1.63873884864772</data>
+      <data key="v_L2">Unclassified: genetic information processing</data>
+      <data key="v_L3">Replication and repair</data>
+      <data key="v_id">16</data>
+      <data key="v_label">K07484</data>
+    </node>
+    <node id="n16">
+      <data key="v_name">K07497</data>
+      <data key="v_degree">3</data>
+      <data key="v_mean_rel">1.30115022223441</data>
+      <data key="v_L2">Unclassified: genetic information processing</data>
+      <data key="v_L3">Replication and repair</data>
+      <data key="v_id">17</data>
+      <data key="v_label">K07497</data>
+    </node>
+    <node id="n17">
+      <data key="v_name">K03768</data>
+      <data key="v_degree">1</data>
+      <data key="v_mean_rel">1.31713641649076</data>
+      <data key="v_L2">Protein families: genetic information processing</data>
+      <data key="v_L3">Chaperones and folding catalysts</data>
+      <data key="v_id">18</data>
+      <data key="v_label">K03768</data>
+    </node>
+    <node id="n18">
+      <data key="v_name">K03043</data>
+      <data key="v_degree">1</data>
+      <data key="v_mean_rel">1.32105090762296</data>
+      <data key="v_L2">Transcription; Protein families: genetic information processing</data>
+      <data key="v_L3">RNA polymerase; Transcription machinery; DNA repair and recombination proteins</data>
+      <data key="v_id">19</data>
+      <data key="v_label">K03043</data>
+    </node>
+    <node id="n19">
+      <data key="v_name">K01338</data>
+      <data key="v_degree">2</data>
+      <data key="v_mean_rel">1.39787914714735</data>
+      <data key="v_L2">Cell growth and death; Protein families: metabolism</data>
+      <data key="v_L3">Cell cycle - Caulobacter; Peptidases</data>
+      <data key="v_id">20</data>
+      <data key="v_label">K01338</data>
+    </node>
+    <node id="n20">
+      <data key="v_name">K11527</data>
+      <data key="v_degree">1</data>
+      <data key="v_mean_rel">1.30512072339931</data>
+      <data key="v_L2">Protein families: metabolism; Protein families: signaling and cellular processes</data>
+      <data key="v_L3">Protein kinases; Two-component system</data>
+      <data key="v_id">21</data>
+      <data key="v_label">K11527</data>
+    </node>
+    <node id="n21">
+      <data key="v_name">K07491</data>
+      <data key="v_degree">3</data>
+      <data key="v_mean_rel">1.45183551290491</data>
+      <data key="v_L2">Unclassified: genetic information processing</data>
+      <data key="v_L3">Replication and repair</data>
+      <data key="v_id">22</data>
+      <data key="v_label">K07491</data>
+    </node>
+    <node id="n22">
+      <data key="v_name">K07114</data>
+      <data key="v_degree">2</data>
+      <data key="v_mean_rel">1.1960455337998</data>
+      <data key="v_L2">Protein families: signaling and cellular processes</data>
+      <data key="v_L3">Transporters</data>
+      <data key="v_id">23</data>
+      <data key="v_label">K07114</data>
+    </node>
+    <node id="n23">
+      <data key="v_name">K03296</data>
+      <data key="v_degree">1</data>
+      <data key="v_mean_rel">1.17092166273064</data>
+      <data key="v_L2">Unclassified: signaling and cellular processes</data>
+      <data key="v_L3">Transport</data>
+      <data key="v_id">24</data>
+      <data key="v_label">K03296</data>
+    </node>
+    <node id="n24">
+      <data key="v_name">K20971</data>
+      <data key="v_degree">12</data>
+      <data key="v_mean_rel">1.04242014709448</data>
+      <data key="v_L2">Cellular community - prokaryotes; Protein families: metabolism; Protein families: signaling and cellular processes</data>
+      <data key="v_L3">Biofilm formation - Pseudomonas aeruginosa; Protein kinases; Two-component system</data>
+      <data key="v_id">25</data>
+      <data key="v_label">K20971</data>
+    </node>
+    <node id="n25">
+      <data key="v_name">K03438</data>
+      <data key="v_degree">1</data>
+      <data key="v_mean_rel">1.14893738824659</data>
+      <data key="v_L2">Protein families: genetic information processing</data>
+      <data key="v_L3">Ribosome biogenesis</data>
+      <data key="v_id">26</data>
+      <data key="v_label">K03438</data>
+    </node>
+    <node id="n26">
+      <data key="v_name">K03657</data>
+      <data key="v_degree">3</data>
+      <data key="v_mean_rel">1.22670920678698</data>
+      <data key="v_L2">Replication and repair; Protein families: genetic information processing</data>
+      <data key="v_L3">Nucleotide excision repair; Mismatch repair; DNA repair and recombination proteins</data>
+      <data key="v_id">27</data>
+      <data key="v_label">K03657</data>
+    </node>
+    <node id="n27">
+      <data key="v_name">K07636</data>
+      <data key="v_degree">3</data>
+      <data key="v_mean_rel">1.13973309354886</data>
+      <data key="v_L2">Signal transduction; Protein families: metabolism; Protein families: signaling and cellular processes</data>
+      <data key="v_L3">Two-component system; Protein kinases</data>
+      <data key="v_id">28</data>
+      <data key="v_label">K07636</data>
+    </node>
+    <node id="n28">
+      <data key="v_name">K03320</data>
+      <data key="v_degree">2</data>
+      <data key="v_mean_rel">1.08346492260273</data>
+      <data key="v_L2">Protein families: signaling and cellular processes</data>
+      <data key="v_L3">Transporters</data>
+      <data key="v_id">29</data>
+      <data key="v_label">K03320</data>
+    </node>
+    <node id="n29">
+      <data key="v_name">K21572</data>
+      <data key="v_degree">5</data>
+      <data key="v_mean_rel">0.979907840072348</data>
+      <data key="v_L2">Protein families: signaling and cellular processes</data>
+      <data key="v_L3">Transporters</data>
+      <data key="v_id">30</data>
+      <data key="v_label">K21572</data>
+    </node>
+    <node id="n30">
+      <data key="v_name">K01190</data>
+      <data key="v_degree">3</data>
+      <data key="v_mean_rel">1.12432404147197</data>
+      <data key="v_L2">Carbohydrate metabolism; Lipid metabolism; Glycan biosynthesis and metabolism</data>
+      <data key="v_L3">Galactose metabolism; Sphingolipid metabolism; Other glycan degradation</data>
+      <data key="v_id">31</data>
+      <data key="v_label">K01190</data>
+    </node>
+    <node id="n31">
+      <data key="v_name">K03723</data>
+      <data key="v_degree">1</data>
+      <data key="v_mean_rel">1.10679976374083</data>
+      <data key="v_L2">Replication and repair; Protein families: genetic information processing</data>
+      <data key="v_L3">Nucleotide excision repair; DNA repair and recombination proteins</data>
+      <data key="v_id">32</data>
+      <data key="v_label">K03723</data>
+    </node>
+    <node id="n32">
+      <data key="v_name">K00265</data>
+      <data key="v_degree">2</data>
+      <data key="v_mean_rel">1.13165285185859</data>
+      <data key="v_L2">Energy metabolism; Amino acid metabolism; Protein families: metabolism</data>
+      <data key="v_L3">Nitrogen metabolism; Alanine, aspartate and glutamate metabolism; Peptidases</data>
+      <data key="v_id">33</data>
+      <data key="v_label">K00265</data>
+    </node>
+    <node id="n33">
+      <data key="v_name">K01897</data>
+      <data key="v_degree">13</data>
+      <data key="v_mean_rel">1.21951596325251</data>
+      <data key="v_L2">Lipid metabolism; Transport and catabolism; Cell growth and death; Cellular community - prokaryotes; Endocrine system; Environmental adaptation; Protein families: metabolism; Protein families: signaling and cellular processes</data>
+      <data key="v_L3">Fatty acid biosynthesis; Fatty acid degradation; Peroxisome; Ferroptosis; Quorum sensing; Adipocytokine signaling pathway; PPAR signaling pathway; Thermogenesis; Lipid biosynthesis proteins; Exosome</data>
+      <data key="v_id">34</data>
+      <data key="v_label">K01897</data>
+    </node>
+    <node id="n34">
+      <data key="v_name">K00123</data>
+      <data key="v_degree">2</data>
+      <data key="v_mean_rel">1.09420089473526</data>
+      <data key="v_L2">Carbohydrate metabolism; Energy metabolism</data>
+      <data key="v_L3">Glyoxylate and dicarboxylate metabolism; Methane metabolism</data>
+      <data key="v_id">35</data>
+      <data key="v_label">K00123</data>
+    </node>
+    <node id="n35">
+      <data key="v_name">K07003</data>
+      <data key="v_degree">5</data>
+      <data key="v_mean_rel">1.01168771384245</data>
+      <data key="v_L2">Poorly characterized</data>
+      <data key="v_L3">Function unknown</data>
+      <data key="v_id">36</data>
+      <data key="v_label">K07003</data>
+    </node>
+    <node id="n36">
+      <data key="v_name">K06147</data>
+      <data key="v_degree">4</data>
+      <data key="v_mean_rel">0.999555644106935</data>
+      <data key="v_L2">Protein families: signaling and cellular processes</data>
+      <data key="v_L3">Transporters</data>
+      <data key="v_id">37</data>
+      <data key="v_label">K06147</data>
+    </node>
+    <node id="n37">
+      <data key="v_name">K02337</data>
+      <data key="v_degree">3</data>
+      <data key="v_mean_rel">0.973489541627607</data>
+      <data key="v_L2">Replication and repair; Protein families: genetic information processing</data>
+      <data key="v_L3">DNA replication; Mismatch repair; Homologous recombination; DNA replication proteins; DNA repair and recombination proteins</data>
+      <data key="v_id">38</data>
+      <data key="v_label">K02337</data>
+    </node>
+    <node id="n38">
+      <data key="v_name">K03307</data>
+      <data key="v_degree">13</data>
+      <data key="v_mean_rel">1.1558207850913</data>
+      <data key="v_L2">Unclassified: signaling and cellular processes</data>
+      <data key="v_L3">Transport</data>
+      <data key="v_id">39</data>
+      <data key="v_label">K03307</data>
+    </node>
+    <node id="n39">
+      <data key="v_name">K01953</data>
+      <data key="v_degree">13</data>
+      <data key="v_mean_rel">0.861047092591281</data>
+      <data key="v_L2">Amino acid metabolism; Protein families: metabolism</data>
+      <data key="v_L3">Alanine, aspartate and glutamate metabolism; Peptidases</data>
+      <data key="v_id">40</data>
+      <data key="v_label">K01953</data>
+    </node>
+    <node id="n40">
+      <data key="v_name">K21573</data>
+      <data key="v_degree">11</data>
+      <data key="v_mean_rel">0.80218470462846</data>
+      <data key="v_L2">Protein families: signaling and cellular processes</data>
+      <data key="v_L3">Transporters</data>
+      <data key="v_id">41</data>
+      <data key="v_label">K21573</data>
+    </node>
+    <node id="n41">
+      <data key="v_name">K02355</data>
+      <data key="v_degree">6</data>
+      <data key="v_mean_rel">1.00042167225834</data>
+      <data key="v_L2">Protein families: genetic information processing</data>
+      <data key="v_L3">Translation factors; Mitochondrial biogenesis</data>
+      <data key="v_id">42</data>
+      <data key="v_label">K02355</data>
+    </node>
+    <node id="n42">
+      <data key="v_name">K03308</data>
+      <data key="v_degree">1</data>
+      <data key="v_mean_rel">0.983111172313487</data>
+      <data key="v_L2">Unclassified: signaling and cellular processes</data>
+      <data key="v_L3">Transport</data>
+      <data key="v_id">43</data>
+      <data key="v_label">K03308</data>
+    </node>
+    <node id="n43">
+      <data key="v_name">K02483</data>
+      <data key="v_degree">2</data>
+      <data key="v_mean_rel">0.834427499293837</data>
+      <data key="v_L2">Protein families: signaling and cellular processes</data>
+      <data key="v_L3">Two-component system</data>
+      <data key="v_id">44</data>
+      <data key="v_label">K02483</data>
+    </node>
+    <node id="n44">
+      <data key="v_name">K02529</data>
+      <data key="v_degree">3</data>
+      <data key="v_mean_rel">0.997937112518791</data>
+      <data key="v_L2">Protein families: genetic information processing</data>
+      <data key="v_L3">Transcription factors</data>
+      <data key="v_id">45</data>
+      <data key="v_label">K02529</data>
+    </node>
+    <node id="n45">
+      <data key="v_name">K07814</data>
+      <data key="v_degree">4</data>
+      <data key="v_mean_rel">0.822902021244242</data>
+      <data key="v_L2">Protein families: signaling and cellular processes</data>
+      <data key="v_L3">Two-component system</data>
+      <data key="v_id">46</data>
+      <data key="v_label">K07814</data>
+    </node>
+    <edge source="n0" target="n34">
+      <data key="e_rho">-0.828571428571429</data>
+      <data key="e_sign">negative</data>
+      <data key="e_correlation_type">negative</data>
+      <data key="e_absolute_correlation">0.828571428571429</data>
+    </edge>
+    <edge source="n1" target="n8">
+      <data key="e_rho">0.942857142857143</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.942857142857143</data>
+    </edge>
+    <edge source="n2" target="n4">
+      <data key="e_rho">-0.828571428571429</data>
+      <data key="e_sign">negative</data>
+      <data key="e_correlation_type">negative</data>
+      <data key="e_absolute_correlation">0.828571428571429</data>
+    </edge>
+    <edge source="n2" target="n5">
+      <data key="e_rho">0.828571428571429</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.828571428571429</data>
+    </edge>
+    <edge source="n2" target="n10">
+      <data key="e_rho">-0.885714285714286</data>
+      <data key="e_sign">negative</data>
+      <data key="e_correlation_type">negative</data>
+      <data key="e_absolute_correlation">0.885714285714286</data>
+    </edge>
+    <edge source="n2" target="n29">
+      <data key="e_rho">0.869656553478673</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.869656553478673</data>
+    </edge>
+    <edge source="n2" target="n35">
+      <data key="e_rho">0.828571428571429</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.828571428571429</data>
+    </edge>
+    <edge source="n2" target="n36">
+      <data key="e_rho">0.828571428571429</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.828571428571429</data>
+    </edge>
+    <edge source="n3" target="n6">
+      <data key="e_rho">-0.942857142857143</data>
+      <data key="e_sign">negative</data>
+      <data key="e_correlation_type">negative</data>
+      <data key="e_absolute_correlation">0.942857142857143</data>
+    </edge>
+    <edge source="n3" target="n9">
+      <data key="e_rho">0.942857142857143</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.942857142857143</data>
+    </edge>
+    <edge source="n3" target="n14">
+      <data key="e_rho">-0.885714285714286</data>
+      <data key="e_sign">negative</data>
+      <data key="e_correlation_type">negative</data>
+      <data key="e_absolute_correlation">0.885714285714286</data>
+    </edge>
+    <edge source="n3" target="n22">
+      <data key="e_rho">-0.828571428571429</data>
+      <data key="e_sign">negative</data>
+      <data key="e_correlation_type">negative</data>
+      <data key="e_absolute_correlation">0.828571428571429</data>
+    </edge>
+    <edge source="n3" target="n24">
+      <data key="e_rho">-0.927633657043918</data>
+      <data key="e_sign">negative</data>
+      <data key="e_correlation_type">negative</data>
+      <data key="e_absolute_correlation">0.927633657043918</data>
+    </edge>
+    <edge source="n3" target="n28">
+      <data key="e_rho">-0.828571428571429</data>
+      <data key="e_sign">negative</data>
+      <data key="e_correlation_type">negative</data>
+      <data key="e_absolute_correlation">0.828571428571429</data>
+    </edge>
+    <edge source="n3" target="n38">
+      <data key="e_rho">0.942857142857143</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.942857142857143</data>
+    </edge>
+    <edge source="n3" target="n39">
+      <data key="e_rho">-0.942857142857143</data>
+      <data key="e_sign">negative</data>
+      <data key="e_correlation_type">negative</data>
+      <data key="e_absolute_correlation">0.942857142857143</data>
+    </edge>
+    <edge source="n4" target="n10">
+      <data key="e_rho">0.885714285714286</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.885714285714286</data>
+    </edge>
+    <edge source="n5" target="n6">
+      <data key="e_rho">0.885714285714286</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.885714285714286</data>
+    </edge>
+    <edge source="n5" target="n9">
+      <data key="e_rho">-0.885714285714286</data>
+      <data key="e_sign">negative</data>
+      <data key="e_correlation_type">negative</data>
+      <data key="e_absolute_correlation">0.885714285714286</data>
+    </edge>
+    <edge source="n5" target="n10">
+      <data key="e_rho">-0.885714285714286</data>
+      <data key="e_sign">negative</data>
+      <data key="e_correlation_type">negative</data>
+      <data key="e_absolute_correlation">0.885714285714286</data>
+    </edge>
+    <edge source="n5" target="n11">
+      <data key="e_rho">-0.942857142857143</data>
+      <data key="e_sign">negative</data>
+      <data key="e_correlation_type">negative</data>
+      <data key="e_absolute_correlation">0.942857142857143</data>
+    </edge>
+    <edge source="n5" target="n13">
+      <data key="e_rho">-0.885714285714286</data>
+      <data key="e_sign">negative</data>
+      <data key="e_correlation_type">negative</data>
+      <data key="e_absolute_correlation">0.885714285714286</data>
+    </edge>
+    <edge source="n5" target="n14">
+      <data key="e_rho">0.942857142857143</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.942857142857143</data>
+    </edge>
+    <edge source="n5" target="n15">
+      <data key="e_rho">-0.828571428571429</data>
+      <data key="e_sign">negative</data>
+      <data key="e_correlation_type">negative</data>
+      <data key="e_absolute_correlation">0.828571428571429</data>
+    </edge>
+    <edge source="n5" target="n24">
+      <data key="e_rho">0.927633657043918</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.927633657043918</data>
+    </edge>
+    <edge source="n5" target="n29">
+      <data key="e_rho">0.811679449913428</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.811679449913428</data>
+    </edge>
+    <edge source="n5" target="n33">
+      <data key="e_rho">-0.885714285714286</data>
+      <data key="e_sign">negative</data>
+      <data key="e_correlation_type">negative</data>
+      <data key="e_absolute_correlation">0.885714285714286</data>
+    </edge>
+    <edge source="n5" target="n38">
+      <data key="e_rho">-0.885714285714286</data>
+      <data key="e_sign">negative</data>
+      <data key="e_correlation_type">negative</data>
+      <data key="e_absolute_correlation">0.885714285714286</data>
+    </edge>
+    <edge source="n5" target="n39">
+      <data key="e_rho">0.885714285714286</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.885714285714286</data>
+    </edge>
+    <edge source="n5" target="n40">
+      <data key="e_rho">0.94112394811432</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.94112394811432</data>
+    </edge>
+    <edge source="n6" target="n9">
+      <data key="e_rho">-1</data>
+      <data key="e_sign">negative</data>
+      <data key="e_correlation_type">negative</data>
+      <data key="e_absolute_correlation">1</data>
+    </edge>
+    <edge source="n6" target="n10">
+      <data key="e_rho">-0.828571428571429</data>
+      <data key="e_sign">negative</data>
+      <data key="e_correlation_type">negative</data>
+      <data key="e_absolute_correlation">0.828571428571429</data>
+    </edge>
+    <edge source="n6" target="n12">
+      <data key="e_rho">-0.828571428571429</data>
+      <data key="e_sign">negative</data>
+      <data key="e_correlation_type">negative</data>
+      <data key="e_absolute_correlation">0.828571428571429</data>
+    </edge>
+    <edge source="n6" target="n13">
+      <data key="e_rho">-0.885714285714286</data>
+      <data key="e_sign">negative</data>
+      <data key="e_correlation_type">negative</data>
+      <data key="e_absolute_correlation">0.885714285714286</data>
+    </edge>
+    <edge source="n6" target="n14">
+      <data key="e_rho">0.942857142857143</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.942857142857143</data>
+    </edge>
+    <edge source="n6" target="n24">
+      <data key="e_rho">0.985610760609162</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.985610760609162</data>
+    </edge>
+    <edge source="n6" target="n33">
+      <data key="e_rho">-0.885714285714286</data>
+      <data key="e_sign">negative</data>
+      <data key="e_correlation_type">negative</data>
+      <data key="e_absolute_correlation">0.885714285714286</data>
+    </edge>
+    <edge source="n6" target="n38">
+      <data key="e_rho">-1</data>
+      <data key="e_sign">negative</data>
+      <data key="e_correlation_type">negative</data>
+      <data key="e_absolute_correlation">1</data>
+    </edge>
+    <edge source="n6" target="n39">
+      <data key="e_rho">1</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">1</data>
+    </edge>
+    <edge source="n6" target="n40">
+      <data key="e_rho">0.880406274042429</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.880406274042429</data>
+    </edge>
+    <edge source="n6" target="n41">
+      <data key="e_rho">-0.828571428571429</data>
+      <data key="e_sign">negative</data>
+      <data key="e_correlation_type">negative</data>
+      <data key="e_absolute_correlation">0.828571428571429</data>
+    </edge>
+    <edge source="n7" target="n20">
+      <data key="e_rho">0.828571428571429</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.828571428571429</data>
+    </edge>
+    <edge source="n7" target="n34">
+      <data key="e_rho">0.828571428571429</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.828571428571429</data>
+    </edge>
+    <edge source="n8" target="n27">
+      <data key="e_rho">-0.828571428571429</data>
+      <data key="e_sign">negative</data>
+      <data key="e_correlation_type">negative</data>
+      <data key="e_absolute_correlation">0.828571428571429</data>
+    </edge>
+    <edge source="n8" target="n30">
+      <data key="e_rho">0.828571428571429</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.828571428571429</data>
+    </edge>
+    <edge source="n8" target="n31">
+      <data key="e_rho">-0.828571428571429</data>
+      <data key="e_sign">negative</data>
+      <data key="e_correlation_type">negative</data>
+      <data key="e_absolute_correlation">0.828571428571429</data>
+    </edge>
+    <edge source="n9" target="n10">
+      <data key="e_rho">0.828571428571429</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.828571428571429</data>
+    </edge>
+    <edge source="n9" target="n12">
+      <data key="e_rho">0.828571428571429</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.828571428571429</data>
+    </edge>
+    <edge source="n9" target="n13">
+      <data key="e_rho">0.885714285714286</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.885714285714286</data>
+    </edge>
+    <edge source="n9" target="n14">
+      <data key="e_rho">-0.942857142857143</data>
+      <data key="e_sign">negative</data>
+      <data key="e_correlation_type">negative</data>
+      <data key="e_absolute_correlation">0.942857142857143</data>
+    </edge>
+    <edge source="n9" target="n24">
+      <data key="e_rho">-0.985610760609162</data>
+      <data key="e_sign">negative</data>
+      <data key="e_correlation_type">negative</data>
+      <data key="e_absolute_correlation">0.985610760609162</data>
+    </edge>
+    <edge source="n9" target="n33">
+      <data key="e_rho">0.885714285714286</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.885714285714286</data>
+    </edge>
+    <edge source="n9" target="n38">
+      <data key="e_rho">1</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">1</data>
+    </edge>
+    <edge source="n9" target="n39">
+      <data key="e_rho">-1</data>
+      <data key="e_sign">negative</data>
+      <data key="e_correlation_type">negative</data>
+      <data key="e_absolute_correlation">1</data>
+    </edge>
+    <edge source="n9" target="n40">
+      <data key="e_rho">-0.880406274042429</data>
+      <data key="e_sign">negative</data>
+      <data key="e_correlation_type">negative</data>
+      <data key="e_absolute_correlation">0.880406274042429</data>
+    </edge>
+    <edge source="n9" target="n41">
+      <data key="e_rho">0.828571428571429</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.828571428571429</data>
+    </edge>
+    <edge source="n10" target="n24">
+      <data key="e_rho">-0.811679449913428</data>
+      <data key="e_sign">negative</data>
+      <data key="e_correlation_type">negative</data>
+      <data key="e_absolute_correlation">0.811679449913428</data>
+    </edge>
+    <edge source="n10" target="n29">
+      <data key="e_rho">-0.927633657043918</data>
+      <data key="e_sign">negative</data>
+      <data key="e_correlation_type">negative</data>
+      <data key="e_absolute_correlation">0.927633657043918</data>
+    </edge>
+    <edge source="n10" target="n33">
+      <data key="e_rho">0.828571428571429</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.828571428571429</data>
+    </edge>
+    <edge source="n10" target="n38">
+      <data key="e_rho">0.828571428571429</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.828571428571429</data>
+    </edge>
+    <edge source="n10" target="n39">
+      <data key="e_rho">-0.828571428571429</data>
+      <data key="e_sign">negative</data>
+      <data key="e_correlation_type">negative</data>
+      <data key="e_absolute_correlation">0.828571428571429</data>
+    </edge>
+    <edge source="n10" target="n40">
+      <data key="e_rho">-0.880406274042429</data>
+      <data key="e_sign">negative</data>
+      <data key="e_correlation_type">negative</data>
+      <data key="e_absolute_correlation">0.880406274042429</data>
+    </edge>
+    <edge source="n11" target="n14">
+      <data key="e_rho">-0.885714285714286</data>
+      <data key="e_sign">negative</data>
+      <data key="e_correlation_type">negative</data>
+      <data key="e_absolute_correlation">0.885714285714286</data>
+    </edge>
+    <edge source="n11" target="n15">
+      <data key="e_rho">0.942857142857143</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.942857142857143</data>
+    </edge>
+    <edge source="n11" target="n24">
+      <data key="e_rho">-0.84066800169605</data>
+      <data key="e_sign">negative</data>
+      <data key="e_correlation_type">negative</data>
+      <data key="e_absolute_correlation">0.84066800169605</data>
+    </edge>
+    <edge source="n11" target="n40">
+      <data key="e_rho">-0.94112394811432</data>
+      <data key="e_sign">negative</data>
+      <data key="e_correlation_type">negative</data>
+      <data key="e_absolute_correlation">0.94112394811432</data>
+    </edge>
+    <edge source="n12" target="n13">
+      <data key="e_rho">0.828571428571429</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.828571428571429</data>
+    </edge>
+    <edge source="n12" target="n26">
+      <data key="e_rho">0.942857142857143</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.942857142857143</data>
+    </edge>
+    <edge source="n12" target="n33">
+      <data key="e_rho">0.885714285714286</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.885714285714286</data>
+    </edge>
+    <edge source="n12" target="n38">
+      <data key="e_rho">0.828571428571429</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.828571428571429</data>
+    </edge>
+    <edge source="n12" target="n39">
+      <data key="e_rho">-0.828571428571429</data>
+      <data key="e_sign">negative</data>
+      <data key="e_correlation_type">negative</data>
+      <data key="e_absolute_correlation">0.828571428571429</data>
+    </edge>
+    <edge source="n12" target="n41">
+      <data key="e_rho">0.828571428571429</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.828571428571429</data>
+    </edge>
+    <edge source="n12" target="n44">
+      <data key="e_rho">0.942857142857143</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.942857142857143</data>
+    </edge>
+    <edge source="n13" target="n14">
+      <data key="e_rho">-0.942857142857143</data>
+      <data key="e_sign">negative</data>
+      <data key="e_correlation_type">negative</data>
+      <data key="e_absolute_correlation">0.942857142857143</data>
+    </edge>
+    <edge source="n13" target="n24">
+      <data key="e_rho">-0.927633657043918</data>
+      <data key="e_sign">negative</data>
+      <data key="e_correlation_type">negative</data>
+      <data key="e_absolute_correlation">0.927633657043918</data>
+    </edge>
+    <edge source="n13" target="n33">
+      <data key="e_rho">0.885714285714286</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.885714285714286</data>
+    </edge>
+    <edge source="n13" target="n38">
+      <data key="e_rho">0.885714285714286</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.885714285714286</data>
+    </edge>
+    <edge source="n13" target="n39">
+      <data key="e_rho">-0.885714285714286</data>
+      <data key="e_sign">negative</data>
+      <data key="e_correlation_type">negative</data>
+      <data key="e_absolute_correlation">0.885714285714286</data>
+    </edge>
+    <edge source="n14" target="n24">
+      <data key="e_rho">0.985610760609162</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.985610760609162</data>
+    </edge>
+    <edge source="n14" target="n33">
+      <data key="e_rho">-0.828571428571429</data>
+      <data key="e_sign">negative</data>
+      <data key="e_correlation_type">negative</data>
+      <data key="e_absolute_correlation">0.828571428571429</data>
+    </edge>
+    <edge source="n14" target="n38">
+      <data key="e_rho">-0.942857142857143</data>
+      <data key="e_sign">negative</data>
+      <data key="e_correlation_type">negative</data>
+      <data key="e_absolute_correlation">0.942857142857143</data>
+    </edge>
+    <edge source="n14" target="n39">
+      <data key="e_rho">0.942857142857143</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.942857142857143</data>
+    </edge>
+    <edge source="n14" target="n40">
+      <data key="e_rho">0.880406274042429</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.880406274042429</data>
+    </edge>
+    <edge source="n15" target="n40">
+      <data key="e_rho">-0.819688599970537</data>
+      <data key="e_sign">negative</data>
+      <data key="e_correlation_type">negative</data>
+      <data key="e_absolute_correlation">0.819688599970537</data>
+    </edge>
+    <edge source="n16" target="n27">
+      <data key="e_rho">-0.828571428571429</data>
+      <data key="e_sign">negative</data>
+      <data key="e_correlation_type">negative</data>
+      <data key="e_absolute_correlation">0.828571428571429</data>
+    </edge>
+    <edge source="n16" target="n30">
+      <data key="e_rho">0.828571428571429</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.828571428571429</data>
+    </edge>
+    <edge source="n16" target="n42">
+      <data key="e_rho">-0.942857142857143</data>
+      <data key="e_sign">negative</data>
+      <data key="e_correlation_type">negative</data>
+      <data key="e_absolute_correlation">0.942857142857143</data>
+    </edge>
+    <edge source="n17" target="n37">
+      <data key="e_rho">0.828571428571429</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.828571428571429</data>
+    </edge>
+    <edge source="n18" target="n37">
+      <data key="e_rho">0.828571428571429</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.828571428571429</data>
+    </edge>
+    <edge source="n19" target="n21">
+      <data key="e_rho">0.828571428571429</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.828571428571429</data>
+    </edge>
+    <edge source="n19" target="n45">
+      <data key="e_rho">-0.811679449913428</data>
+      <data key="e_sign">negative</data>
+      <data key="e_correlation_type">negative</data>
+      <data key="e_absolute_correlation">0.811679449913428</data>
+    </edge>
+    <edge source="n21" target="n33">
+      <data key="e_rho">0.828571428571429</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.828571428571429</data>
+    </edge>
+    <edge source="n21" target="n45">
+      <data key="e_rho">-0.811679449913428</data>
+      <data key="e_sign">negative</data>
+      <data key="e_correlation_type">negative</data>
+      <data key="e_absolute_correlation">0.811679449913428</data>
+    </edge>
+    <edge source="n22" target="n28">
+      <data key="e_rho">1</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">1</data>
+    </edge>
+    <edge source="n23" target="n43">
+      <data key="e_rho">0.885714285714286</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.885714285714286</data>
+    </edge>
+    <edge source="n24" target="n33">
+      <data key="e_rho">-0.869656553478673</data>
+      <data key="e_sign">negative</data>
+      <data key="e_correlation_type">negative</data>
+      <data key="e_absolute_correlation">0.869656553478673</data>
+    </edge>
+    <edge source="n24" target="n38">
+      <data key="e_rho">-0.985610760609162</data>
+      <data key="e_sign">negative</data>
+      <data key="e_correlation_type">negative</data>
+      <data key="e_absolute_correlation">0.985610760609162</data>
+    </edge>
+    <edge source="n24" target="n39">
+      <data key="e_rho">0.985610760609162</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.985610760609162</data>
+    </edge>
+    <edge source="n24" target="n40">
+      <data key="e_rho">0.893259600268861</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.893259600268861</data>
+    </edge>
+    <edge source="n25" target="n37">
+      <data key="e_rho">0.885714285714286</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.885714285714286</data>
+    </edge>
+    <edge source="n26" target="n33">
+      <data key="e_rho">0.942857142857143</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.942857142857143</data>
+    </edge>
+    <edge source="n26" target="n44">
+      <data key="e_rho">0.885714285714286</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.885714285714286</data>
+    </edge>
+    <edge source="n27" target="n30">
+      <data key="e_rho">-1</data>
+      <data key="e_sign">negative</data>
+      <data key="e_correlation_type">negative</data>
+      <data key="e_absolute_correlation">1</data>
+    </edge>
+    <edge source="n29" target="n35">
+      <data key="e_rho">0.811679449913428</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.811679449913428</data>
+    </edge>
+    <edge source="n29" target="n36">
+      <data key="e_rho">0.84066800169605</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.84066800169605</data>
+    </edge>
+    <edge source="n32" target="n35">
+      <data key="e_rho">-0.942857142857143</data>
+      <data key="e_sign">negative</data>
+      <data key="e_correlation_type">negative</data>
+      <data key="e_absolute_correlation">0.942857142857143</data>
+    </edge>
+    <edge source="n32" target="n45">
+      <data key="e_rho">-0.985610760609162</data>
+      <data key="e_sign">negative</data>
+      <data key="e_correlation_type">negative</data>
+      <data key="e_absolute_correlation">0.985610760609162</data>
+    </edge>
+    <edge source="n33" target="n38">
+      <data key="e_rho">0.885714285714286</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.885714285714286</data>
+    </edge>
+    <edge source="n33" target="n39">
+      <data key="e_rho">-0.885714285714286</data>
+      <data key="e_sign">negative</data>
+      <data key="e_correlation_type">negative</data>
+      <data key="e_absolute_correlation">0.885714285714286</data>
+    </edge>
+    <edge source="n33" target="n40">
+      <data key="e_rho">-0.819688599970537</data>
+      <data key="e_sign">negative</data>
+      <data key="e_correlation_type">negative</data>
+      <data key="e_absolute_correlation">0.819688599970537</data>
+    </edge>
+    <edge source="n35" target="n36">
+      <data key="e_rho">0.885714285714286</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.885714285714286</data>
+    </edge>
+    <edge source="n35" target="n45">
+      <data key="e_rho">0.927633657043918</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.927633657043918</data>
+    </edge>
+    <edge source="n36" target="n43">
+      <data key="e_rho">0.885714285714286</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.885714285714286</data>
+    </edge>
+    <edge source="n38" target="n39">
+      <data key="e_rho">-1</data>
+      <data key="e_sign">negative</data>
+      <data key="e_correlation_type">negative</data>
+      <data key="e_absolute_correlation">1</data>
+    </edge>
+    <edge source="n38" target="n40">
+      <data key="e_rho">-0.880406274042429</data>
+      <data key="e_sign">negative</data>
+      <data key="e_correlation_type">negative</data>
+      <data key="e_absolute_correlation">0.880406274042429</data>
+    </edge>
+    <edge source="n38" target="n41">
+      <data key="e_rho">0.828571428571429</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.828571428571429</data>
+    </edge>
+    <edge source="n39" target="n40">
+      <data key="e_rho">0.880406274042429</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.880406274042429</data>
+    </edge>
+    <edge source="n39" target="n41">
+      <data key="e_rho">-0.828571428571429</data>
+      <data key="e_sign">negative</data>
+      <data key="e_correlation_type">negative</data>
+      <data key="e_absolute_correlation">0.828571428571429</data>
+    </edge>
+    <edge source="n41" target="n44">
+      <data key="e_rho">0.942857142857143</data>
+      <data key="e_sign">positive</data>
+      <data key="e_correlation_type">positive</data>
+      <data key="e_absolute_correlation">0.942857142857143</data>
+    </edge>
+  </graph>
+</graphml>

@@ -1,0 +1,3 @@
+".y.","n","statistic","df","p","method","Level"
+"Shannon",24,7.18000000000001,3,0.0664,"Kruskal-Wallis","Genus"
+"Shannon",24,7.92,3,0.0477,"Kruskal-Wallis","KO"

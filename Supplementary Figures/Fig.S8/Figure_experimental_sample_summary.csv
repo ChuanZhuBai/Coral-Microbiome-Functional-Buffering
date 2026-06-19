@@ -1,0 +1,25 @@
+"Raw_sample_ID","Sample","Group","Habitat","Phylum_assigned_reads"
+"restI1A","IT-C1","IT-C","Intertidal Control",20172
+"restI2A","IT-C2","IT-C","Intertidal Control",25807
+"restI3A","IT-C3","IT-C","Intertidal Control",35973
+"restI4A","IT-C4","IT-C","Intertidal Control",28126
+"restI5A","IT-C5","IT-C","Intertidal Control",73664
+"restI6A","IT-C6","IT-C","Intertidal Control",75464
+"restI1H","IT-H1","IT-H","Intertidal Heat",27609
+"restI2H","IT-H2","IT-H","Intertidal Heat",27627
+"restI3H","IT-H3","IT-H","Intertidal Heat",22466
+"restI4H","IT-H4","IT-H","Intertidal Heat",49097
+"restI5H","IT-H5","IT-H","Intertidal Heat",47539
+"restI6H","IT-H6","IT-H","Intertidal Heat",37271
+"restS1A","ST-C1","ST-C","Subtidal Control",73345
+"restS2A","ST-C2","ST-C","Subtidal Control",35764
+"restS3A","ST-C3","ST-C","Subtidal Control",1365632
+"restS4A","ST-C4","ST-C","Subtidal Control",40153
+"restS5A","ST-C5","ST-C","Subtidal Control",62430
+"restS6A","ST-C6","ST-C","Subtidal Control",45245
+"restS1H","ST-H1","ST-H","Subtidal Heat",85159
+"restS2H","ST-H2","ST-H","Subtidal Heat",74519
+"restS3H","ST-H3","ST-H","Subtidal Heat",31949
+"restS4H","ST-H4","ST-H","Subtidal Heat",29508
+"restS5H","ST-H5","ST-H","Subtidal Heat",115441
+"restS6H","ST-H6","ST-H","Subtidal Heat",85235
